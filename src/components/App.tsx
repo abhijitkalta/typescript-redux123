@@ -1,6 +1,6 @@
 import { Provider } from "react-redux";
 import { store } from "../state";
-import { RepositioriesList } from "./RepositioriesList";
+import RepositioriesList from "./RepositoriesList";
 const App = () => {
   return (
     <Provider store={store}>
